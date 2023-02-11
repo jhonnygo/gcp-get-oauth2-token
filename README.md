@@ -23,14 +23,14 @@ What do you need for to get your token:
 
 ## Use this command to install the librarie.
 <pre>
-$ curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/install.sh | bash
+$ sudo curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/install.sh | bash
 </pre>
 
 # How to uninstall this librarie?.
 
 ## Use this command to uninstall the librarie.
 <pre>
-$ curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/uninstall.sh | bash
+$ sudo curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/uninstall.sh | bash
 </pre>
 
 # After installation.
