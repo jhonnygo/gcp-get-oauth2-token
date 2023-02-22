@@ -4,6 +4,20 @@
 PROCESS=1
 TEMP=''
 
+# Find node binary
+NODE_BINARY=$(which node)
+
+if [ $? -ne 0 ]; then
+        echo ""
+        echo "##############################################"
+        echo "#  ***** ERROR REQUESTING WITH NODE ******   #"
+        echo "#    We did not find node on your system     #"
+        echo "#       Install node on your system          #"
+        echo "##############################################"
+        echo ""
+        exit
+fi
+
 while [ $PROCESS -eq 1 ]
 do
 	sleep 1
