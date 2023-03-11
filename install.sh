@@ -1,9 +1,10 @@
 #!/bin/bash
 
-sudo mkdir -p ~/gcp-get-oauth2-token
+mkdir -p ~/gcp-get-oauth2-token
+chown $USER:$USER ~/gcp-get-oauth2-token
 cd ~/gcp-get-oauth2-token
 wget https://github.com/jhonnygo/gcp-get-oauth2-token/raw/main/gcp-get-oauth2-token.tar
-sudo tar xf gcp-get-oauth2-token.tar && sudo rm -rf gcp-get-oauth2-token.tar
+tar xf gcp-get-oauth2-token.tar && rm -rf gcp-get-oauth2-token.tar
 sudo mkdir -p /usr/local/scripts/gcp-get-oauth2-token
 sudo mv config /usr/local/scripts/gcp-get-oauth2-token/
 sudo mv helpers /usr/local/scripts/gcp-get-oauth2-token/
