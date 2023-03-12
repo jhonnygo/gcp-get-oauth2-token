@@ -19,21 +19,21 @@ What do you need for to get your token:
 * GCP - Scopes of your Service Account
 <br><br>
 
-# How to install this librarie?.
+# :star: How to install this librarie?.
 
 ## Use this command to install the librarie.
 <pre>
 $ sudo curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/install.sh | bash
 </pre>
 
-# How to uninstall this librarie?.
+# :boom: How to uninstall this librarie?.
 
 ## Use this command to uninstall the librarie.
 <pre>
 $ sudo curl -s https://raw.githubusercontent.com/jhonnygo/gcp-get-oauth2-token/main/uninstall.sh | bash
 </pre>
 
-# After installation.
+# :sparkler: After installation.
 
 ## Once you have installed the library, you need the following data:
 
@@ -83,8 +83,9 @@ $ gcp-get-oauth2-token
 
 <br>
 
-## EXAMPLES'S PAGE
-Go to page of request examples in the follow link: **[REQUEST EXAMPLES](https://github.com/jhonnygo/gcp-get-oauth2-token/wiki#examples)**
+## :blue_book: EXAMPLES'S PAGE
+With your generated token <br>
+:point_right: Go to page of request examples in the follow link: **[REQUEST EXAMPLES](https://github.com/jhonnygo/gcp-get-oauth2-token/wiki#examples)**
 
 <br>
 
